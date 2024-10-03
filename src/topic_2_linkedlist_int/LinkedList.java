@@ -23,7 +23,7 @@ public class LinkedList {
 
     public void display() {
         if (head == null) {
-            System.out.println("List is empty.");
+            System.out.println("List is empty!");
         } else {
             Node temp = head;
             while (temp != null) {
